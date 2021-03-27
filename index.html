@@ -15,9 +15,16 @@
             rows = Number(rows);
             columns = Number(columns);
 
-            // Generate the table!
-            let table = createTable(rows, columns);
-            document.write(table)
+            // Check if a valid input
+            if (isNaN(rows) || isNaN(columns)) {
+                alert("Invalid input!")
+
+            } else {
+                // Generate the table!
+                let table = createTable(rows, columns);
+                document.write(table)
+            }
+            
         }
 
         function createTable(rows, columns) {
