@@ -12,6 +12,9 @@
   "author": "RealA10N",
   "license": "ISC",
   "dependencies": {
+    "@babel/core": "^7.13.13",
+    "@babel/node": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
     "express": "^4.17.1"
   }
 }
